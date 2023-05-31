@@ -1,0 +1,51 @@
+<objectA>
+    <shape> rectangle </shape>
+    <position> 
+        <x> -300 </x>
+        <y> -300 </y>
+    </position>
+    <length> 300 </length>
+    <width> 100 </width>
+    <color> blue </color>
+    <filled> true </filled>
+</objectA>
+<objectB>
+    <shape> triangle </shape>
+    <position> 
+        <x> 300 </x>
+        <y> 300 </y>
+    </position>
+    <length> 100 </length>
+    <color> lightblue </color>
+    <filled> true </filled>
+</objectB>
+<objectC>
+    <shape> circle </shape>
+    <position> 
+        <x> 280 </x>
+        <y> -300 </y>
+    </position>
+    <radius> 100 </radius>
+    <color> red </color>
+    <filled> true </filled>
+</objectC>
+<objectD>
+    <shape> hexagon </shape>
+    <position> 
+        <x> -300 </x>
+        <y> 300 </y>
+    </position>
+    <length> 100 </length>
+    <color> indigo </color>
+    <filled> true </filled>
+</objectD>
+<objectE>
+    <shape> heart </shape>
+    <position> 
+        <x> 0 </x>
+        <y> 0 </y>
+    </position>
+    <color> purple </color>
+    <filled> true </filled>
+</objectE>
+.

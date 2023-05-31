@@ -1,0 +1,41 @@
+{
+  "objectB": {
+    "color":  "lightblue"
+    ,"shape":  "triangle"
+    ,"position": {
+      "x":  "300"
+      ,"y":  "300"
+    }
+    ,"length":  "100"
+    ,"filled":  "true"
+  }
+  ,"objectC": {
+    "radius":  "100"
+    ,"shape":  "circle"
+    ,"position": {
+      "x":  "280"
+      ,"y":  "-300"
+    }
+    ,"color":  "red"
+    ,"filled":  "true"
+  }
+  ,"objectD": {
+    "shape":  "hexagon"
+    ,"position": {
+      "x":  "-300"
+      ,"y":  "300"
+    }
+    ,"length":  "100"
+    ,"color":  "indigo"
+    ,"filled":  "true"
+  }
+  ,"objectE": {
+    "shape":  "heart"
+    ,"position": {
+      "x":  "0"
+      ,"y":  "0"
+    }
+    ,"color":  "purple"
+    ,"filled":  "true"
+  }
+}

@@ -1,0 +1,52 @@
+<test>
+    <variable><a>10</a></variable>
+    <variable><b>11</b></variable>    
+    <variable><c>12</c></variable>    
+    <sum>
+        <d>
+            <it>a</it>
+            <it>b</it>
+            <it>c</it>
+        </d>
+    </sum>
+    <print>a</print>
+    <print>b</print>
+    <print>c</print>
+    <print>d</print>
+
+    <if a="10">
+        <resultA>
+            <print>a</print>
+        </resultA>
+        <if b="11">
+            <resultB>
+                <print>b</print>
+            </resultB>            
+            <if c="12">
+                <resultC>
+                    <print>c</print>
+                </resultC>
+                <if d="33">
+                    <resultABC>
+                        <print>d</print>
+                    </resultABC>
+                </if>
+            </if>
+        </if>
+    </if>
+
+    <if a="10">
+        <resultA>success</resultA>
+        <if b="11">
+            <resultB>success</resultB>
+            <if c="13">
+                <resultC>fail</resultC>
+                <if d="33">
+                    <resultABC>success</resultABC>
+                </if>
+            </if>
+        </if>
+    </if>
+
+</test>
+.
