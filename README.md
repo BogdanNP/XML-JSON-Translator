@@ -25,11 +25,11 @@ Available input files:
 * Object with subobjects:   
 ``` 
     <objectName>  
-        <suobjectName1>...</suobjectName1>  
-        <suobjectName2>...</suobjectName2>  
+        <subobjectName1>...</suobjectName1>  
+        <subobjectName2>...</suobjectName2>  
     </objectName>
     
-    <objectName suobjectName="value"> </objectName>
+    <objectName subobjectName1="value" subobjectName2="value" ...> </objectName>
 ```
 ## Basic script functions:  
 * Variable declaration:
@@ -67,3 +67,4 @@ if ```variableName``` has the value equal with ```variableValue``` then the ```o
     </sum>
 ```  
 creates a new variable d, and stores the sum of the variables a, b, c 
+## Draw functonallity:
