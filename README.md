@@ -4,7 +4,9 @@
 * Object with value:   
 ``` <objectName> value </objectName> ```
 * Object with subobjects:   
-``` <objectName>  
+``` 
+    <objectName>  
         <suobjectName1>...</suobjectName1>  
         <suobjectName2>...</suobjectName2>  
-    </objectName>```
+    </objectName>
+```
